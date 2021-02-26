@@ -1,4 +1,7 @@
-##BaekJoon step 1 to 49   
+  
+## BaekJoon step 1 to 49  
+
+
 1 입출력과 사칙연산 입력, 출력과 사칙연산을 연습해 봅시다.   
 2 if문 if문을 사용해 봅시다.   
 3 for문 for문을 사용해 봅시다.   
