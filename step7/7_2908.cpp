@@ -15,8 +15,8 @@ int main() {
 		s2[2] = temp;
 
 
-	if (stoi(s1) > stoi(s2))\
-		cout << s1;
+	if (stoi(s1) > stoi(s2))
+		cout << s1; //not yet
 	else
 		cout << s2;
 }
