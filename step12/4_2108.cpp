@@ -42,7 +42,7 @@ int main() {
 
 	for (int i = 0; i < 8001; i++) {
 		if (arr[i] == max) {
-			if (i>=4000)
+			if (i>4000)
 				great.push_back(-(i-4000));
 			else
 				great.push_back(i);
