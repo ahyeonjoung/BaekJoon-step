@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+;
 
 int visited[15] = { 0, };
 int result = 0;
