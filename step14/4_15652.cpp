@@ -1,23 +1,23 @@
 #include<iostream>
 using namespace std;
 
-int n, m;
-int arr[9] = { 0, }; //¼±Á¤µÈ ¼ıÀÚ¸¦ ÀúÀåÇÒ ¹è¿­
-bool visited[9] = { 0, }; //¼±Á¤µÈ ¼ıÀÚÀÎÁö ÆÇ´ÜÇÒ ¼ö ÀÖ´Â ¹è¿­
+int n, m;   
+int arr[9] = { 0, }; //ì„ ì •ëœ ìˆ«ìë¥¼ ì €ì¥í•  ë°°ì—´
+bool visited[9] = { 0, }; //ì„ ì •ëœ ìˆ«ìì¸ì§€ íŒë‹¨í•  ìˆ˜ ìˆëŠ” ë°°ì—´
 
 void dfs(int num, int cnt) {
 	if (cnt == m) {
-		for (int i = 0; i < m; i++) { //m°³ÀÇ ¼ıÀÚ°¡ ¼±Á¤µÇ¾ú´Ù¸é 
-			cout << arr[i] << ' '; //¼±Á¤µÈ ¼ıÀÚµé Ãâ·Â
+		for (int i = 0; i < m; i++) { //mê°œì˜ ìˆ«ìê°€ ì„ ì •ë˜ì—ˆë‹¤ë©´ 
+			cout << arr[i] << ' '; //ì„ ì •ëœ ìˆ«ìë“¤ ì¶œë ¥
 		}
 		cout << "\n";
 		return;
 	}
-	for (int i = num; i <= n; i++) { //ÀÌÀüº¸´Ù °°Àº ¼ıÀÚºÎÅÍ ½ÃÀÛ
-			visited[i] = true; //i¸¦ ¼±Á¤
-			arr[cnt] = i; //arr¿¡ Ãß°¡
+	for (int i = num; i <= n; i++) { //ì´ì „ë³´ë‹¤ ê°™ì€ ìˆ«ìë¶€í„° ì‹œì‘
+			visited[i] = true; //ië¥¼ ì„ ì •
+			arr[cnt] = i; //arrì— ì¶”ê°€
 			dfs(i, cnt + 1);
-			visited[i] = false; //±× ÀüÀÇ ¼º°ø´Ü°è
+			visited[i] = false; //ê·¸ ì „ì˜ ì„±ê³µë‹¨ê³„
 	}
 }
 

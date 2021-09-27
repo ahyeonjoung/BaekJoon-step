@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
-
+ 
 using namespace std;
 
 int dx[4] = { 1,-1,0,0 };
