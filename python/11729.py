@@ -7,5 +7,5 @@ def hanoi(n,a,b,c):
     hanoi(n-1,b,a,c) 
 
 n=int(input())
-print(2**n-1)
+print(2**n-1)   
 hanoi(n,1,2,3)
