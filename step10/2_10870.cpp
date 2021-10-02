@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std;
+using namespace std;   
 
 int fibonacci(int a) {
 	if (a == 0) {
