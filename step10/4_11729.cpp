@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std;
+using namespace std;    
 
 void hanoi(int n, int start, int to, int bypass) {
 	if (n == 1)
