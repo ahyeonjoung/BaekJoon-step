@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+   
 int factorial(int a) {
 	if (a == 1) {
 		return a;
