@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 
-int main() {
+int main() {.  
 	int arr[10000] = {0};
 	int n;
 	int i = 0;
