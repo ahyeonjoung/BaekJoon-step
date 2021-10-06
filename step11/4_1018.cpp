@@ -3,7 +3,7 @@
 #include<algorithm>
 #include<utility>
 using namespace std;
-
+   
 string WB[8] = {
 	"WBWBWBWB",
 	"BWBWBWBW",
