@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;   
-
+   
 int fibonacci(int a) {
 	if (a == 0) {
 		return a;
