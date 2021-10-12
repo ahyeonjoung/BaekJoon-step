@@ -7,7 +7,7 @@ int main() {
 	int num;
 	cin >> num;
 	int arr[26] = { 0, };
-	vector<string> str;
+	vector<string> str;  
 	string word;
 	int sum = 0;
 	char temp;
