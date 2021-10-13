@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-    
+        
 int n, m;
 int arr[9] = { 0, }; //선정된 숫자를 저장할 배열
 bool visited[9] = { 0, }; //선정된 숫자인지 판단할 수 있는 배열
