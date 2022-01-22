@@ -3,7 +3,7 @@ def hanoi(n,a,b,c):
     print(a,c)
   else:   
     hanoi(n-1,a,c,b)
-    print(a,c)
+    print(a,c)   
     hanoi(n-1,b,a,c) 
    
 n=int(input())
