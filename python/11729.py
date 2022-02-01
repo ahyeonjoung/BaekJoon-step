@@ -9,3 +9,4 @@ def hanoi(n,a,b,c):
 n=int(input())
 print(2**n-1)   
 hanoi(n,1,2,3)
+  
