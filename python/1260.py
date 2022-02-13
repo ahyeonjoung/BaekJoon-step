@@ -1,7 +1,7 @@
 from collections import deque
 
 def dfs(n):
-    print(n, end=' ')
+    print(n, end=' ') 
     visited[n] = True
     for i in graph[n]:
         if not visited[i]:
@@ -33,5 +33,5 @@ for i in range(1, n+1):
 
 dfs(v)
 visited = [False] * (n + 1)
-print()
+print() 
 bfs(v)
